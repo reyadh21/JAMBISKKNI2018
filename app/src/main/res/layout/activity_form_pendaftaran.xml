@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="riyadh.com.markazapp.skkni.FormPendaftaran">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama lengkap"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:id="@+id/nama_lengkap"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIK"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NIK"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:id="@+id/nik"
+                android:inputType="number"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HP"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="HP"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:inputType="number"
+                android:id="@+id/hp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skema"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Skema"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:id="@+id/skema"
+                android:inputType="text"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat Ujian"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tempat Ujian"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:id="@+id/tempat"
+                android:inputType="text"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rekomendasi"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rekomendasi"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:inputType="text"
+                android:id="@+id/rekomendasi"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Terbit"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal Terbit"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:id="@+id/tgl_terbit"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tgl. Lahir"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tgl Lahir"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:id="@+id/tgl_lhir"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Organisasi"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Organisasi"
+                android:background="@drawable/edittext_custome"
+                android:padding="5dp"
+                android:id="@+id/organisasi"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIMPAN DATA"
+                android:textColor="#fff"
+                android:id="@+id/btn_save"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
